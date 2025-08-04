@@ -1,55 +1,120 @@
-=== Dynamic Cta Block ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.7
-Stable tag:        0.1.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+# 📦 Dynamic CTA Block
 
-Example block scaffolded with Create Block tool.
+**Dynamic CTA Block** is a customizable Gutenberg block for WordPress that allows you to insert beautiful, animated call-to-action sections with flexible form fields and styling options. This block is ideal for lead generation, newsletter signups, contact prompts, and more.
 
-== Description ==
+---
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+## ✨ Features
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+- 🎨 Editable title, description, and button text
+- 🧩 Custom font size, weight, and family for the heading
+- 🧾 Add unlimited form fields (text, email, textarea, select, checkbox, radio)
+- 🧹 Remove unwanted input fields
+- 🎨 Animated gradient border with soft background glow
+- ⚙️ Fully editable from the block editor (Inspector Controls)
+- ✅ Built using modern `@wordpress/scripts` and block.json structure
 
-== Installation ==
+---
 
-This section describes how to install the plugin and get it working.
+## 📁 Folder Structure
 
-e.g.
+dynamic-cta-block/
+├── block.json
+├── dynamic-cta-block.js # (If using all-in-one file structure)
+├── edit.js # Gutenberg block editor logic
+├── save.js # Frontend save/output
+├── style.scss # Block styles (animated border, inputs, etc.)
+├── README.md # You are here
+└── index.js # Optional entry if using separate files
 
-1. Upload the plugin files to the `/wp-content/plugins/dynamic-cta-block` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Editor Controls
+
+The block includes a right-side panel (Inspector Controls) with the following options:
+
+### **CTA Settings**
+- **Title**: Main heading of the CTA
+- **Font Size**: Adjust title size in pixels
+- **Font Weight**: Choose from 400 to 900
+- **Font Family**: Inherit / Sans / Serif / Inter / Roboto
+- **Description**: Subtext shown under the title
+- **Button Text**: Text for the CTA button
+
+### **Form Inputs**
+- **Input Name**: Label & placeholder of the input
+- **Input Type**: Choose from text, email, textarea, select, checkbox, radio
+- **Add Input**: Adds a new field below the form
+- **Remove Input**: Removes an existing field
+
+---
+
+## 💅 Styling Highlights
+
+- **Gradient Border Animation**: Color flows continuously around the card
+- **Frosted Glass Effect**: Light blurred background for soft UI
+- **Accessible Form Elements**: Properly styled inputs for all types
+- **Customizable**: Easily extendable with your own CSS/SCSS variables
+
+---
+
+## 🚀 Installation & Development
+
+### For Local Development:
+
+1. Clone this plugin into your WordPress `wp-content/plugins` folder:
+    ```bash
+    git clone https://github.com/yourname/dynamic-cta-block.git
+    ```
+
+2. Install dependencies:
+    ```bash
+    cd dynamic-cta-block
+    npm install
+    ```
+
+3. Start the build watcher:
+    ```bash
+    npm run start
+    ```
+
+4. Activate the plugin from your WordPress dashboard.
+
+---
+
+## 🧪 Build for Production
+
+```bash
+npm run build
+This will compile the block into the build/ directory, ready for use.
+
+📝 Notes
+If you're using the all-in-one format (e.g., dynamic-cta-block.js), ensure it's properly registered in block.json.
+
+You can easily extend the panel to include more settings (like border styles, background colors, etc.).
+
+This block is built with extensibility in mind for agency or theme use.
+
+📸 Screenshot (Example)
+A modern CTA with animated border and smooth UI 👇
+
+📄 License
+MIT — Feel free to use, modify, and contribute.
+
+👨‍💻 Author
+Developed by Yousuf Jusani
+Follow on GitHub | github.io/iyousufjusani
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you'd like the `block.json` file and `package.json` as well — or want to convert this README into a GitHub project or ZIP plugin structure.
 
 
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
-
-== Changelog ==
-
-= 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
