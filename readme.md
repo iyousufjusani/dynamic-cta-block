@@ -95,8 +95,10 @@ The block includes a right-side panel (Inspector Controls) with the following op
 ```bash
 npm run build
 This will compile the block into the build/ directory, ready for use.
+```
 
-📝 Notes
+## 📝 Notes
+
 If you're using the all-in-one format (e.g., dynamic-cta-block.js), ensure it's properly registered in block.json.
 
 You can easily extend the panel to include more settings (like border styles, background colors, etc.).
@@ -116,6 +118,3 @@ Follow on GitHub | [https://github.com/iyousufjusani/]
 ---
 
 Let me know if you'd like the `block.json` file and `package.json` as well — or want to convert this README into a GitHub project or ZIP plugin structure.
-
-
-```
