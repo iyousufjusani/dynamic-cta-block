@@ -94,8 +94,9 @@ The block includes a right-side panel (Inspector Controls) with the following op
 
 ```bash
 npm run build
-This will compile the block into the build/ directory, ready for use.
 ```
+
+This will compile the block into the build/ directory, ready for use.
 
 ## 📝 Notes
 
