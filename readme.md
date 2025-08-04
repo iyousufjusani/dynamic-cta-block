@@ -18,14 +18,15 @@
 
 ## 📁 Folder Structure
 
-dynamic-cta-block/
-├── block.json
-├── dynamic-cta-block.js # (If using all-in-one file structure)
-├── edit.js # Gutenberg block editor logic
-├── save.js # Frontend save/output
-├── style.scss # Block styles (animated border, inputs, etc.)
-├── README.md # You are here
-└── index.js # Optional entry if using separate files
+- dynamic-cta-block/
+  |-- src/
+  |-- block.json
+  |-- dynamic-cta-block.js # (If using all-in-one file structure)
+  |-- edit.js # Gutenberg block editor logic
+  |-- save.js # Frontend save/output
+  |-- style.scss # Block styles (animated border, inputs, etc.)
+  |-- README.md # ( You are here)
+  |-- index.js # Optional entry if using separate files
 
 ---
 
@@ -108,7 +109,7 @@ MIT — Feel free to use, modify, and contribute.
 
 👨‍💻 Author
 Developed by Yousuf Jusani
-Follow on GitHub | github.com/iyousufjusani/
+Follow on GitHub | https://github.com/iyousufjusani/
 
 ---
 
