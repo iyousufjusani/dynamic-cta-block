@@ -22,6 +22,7 @@
 dynamic-cta-block/
     |-- src/
         |-- components
+            |-- InputField.js
         |-- block.json
         |-- edit.js # Gutenberg block editor logic
         |-- editor.scss # CSS for edit view
@@ -42,9 +43,9 @@ The block includes a right-side panel (Inspector Controls) with the following op
 ### **CTA Settings**
 
 - **Title**: Main heading of the CTA
-- **Font Size**: Adjust title size in pixels
-- **Font Weight**: Choose from 400 to 900
-- **Font Family**: Inherit / Sans / Serif / Inter / Roboto
+  - **Font Size**: Adjust title size in pixels
+  - **Font Weight**: Choose from 400 to 900
+  - **Font Family**: Inherit / Sans / Serif / Inter / Roboto
 - **Description**: Subtext shown under the title
 - **Button Text**: Text for the CTA button
 
