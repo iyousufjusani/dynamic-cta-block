@@ -111,7 +111,7 @@ MIT — Feel free to use, modify, and contribute.
 
 👨‍💻 Author
 Developed by Yousuf Jusani
-Follow on GitHub | [Yousuf Jusani](https://github.com/iyousufjusani/)
+Follow on GitHub | [https://github.com/iyousufjusani/]
 
 ---
 
