@@ -20,14 +20,17 @@
 
 ```
 dynamic-cta-block/
-|-- src/
-    |-- block.json
-    |-- dynamic-cta-block.js # (If using all-in-one file structure)
-    |-- edit.js # Gutenberg block editor logic
-    |-- save.js # Frontend save/output
-    |-- style.scss # Block styles (animated border, inputs, etc.)
+    |-- src/
+        |-- components
+        |-- block.json
+        |-- edit.js # Gutenberg block editor logic
+        |-- editor.scss # CSS for edit view
+        |-- index.js # Optional entry if using separate files
+        |-- save.js # Frontend save/output
+        |-- style.scss # Block styles (animated border, inputs, etc.)
+        |-- view.js
+    |-- dynamic-cta-block.php
     |-- README.md # 👈 (You are here)
-    |-- index.js # Optional entry if using separate files
 ```
 
 ---
