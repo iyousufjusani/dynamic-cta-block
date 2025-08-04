@@ -27,10 +27,6 @@ dynamic-cta-block/
 ├── README.md # You are here
 └── index.js # Optional entry if using separate files
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ Editor Controls
@@ -38,6 +34,7 @@ Edit
 The block includes a right-side panel (Inspector Controls) with the following options:
 
 ### **CTA Settings**
+
 - **Title**: Main heading of the CTA
 - **Font Size**: Adjust title size in pixels
 - **Font Weight**: Choose from 400 to 900
@@ -46,6 +43,7 @@ The block includes a right-side panel (Inspector Controls) with the following op
 - **Button Text**: Text for the CTA button
 
 ### **Form Inputs**
+
 - **Input Name**: Label & placeholder of the input
 - **Input Type**: Choose from text, email, textarea, select, checkbox, radio
 - **Add Input**: Adds a new field below the form
@@ -67,20 +65,23 @@ The block includes a right-side panel (Inspector Controls) with the following op
 ### For Local Development:
 
 1. Clone this plugin into your WordPress `wp-content/plugins` folder:
-    ```bash
-    git clone https://github.com/yourname/dynamic-cta-block.git
-    ```
+
+   ```bash
+   git clone https://github.com/iyousufjusani/dynamic-cta-block
+   ```
 
 2. Install dependencies:
-    ```bash
-    cd dynamic-cta-block
-    npm install
-    ```
+
+   ```bash
+   cd dynamic-cta-block
+   npm install
+   ```
 
 3. Start the build watcher:
-    ```bash
-    npm run start
-    ```
+
+   ```bash
+   npm run start
+   ```
 
 4. Activate the plugin from your WordPress dashboard.
 
@@ -107,14 +108,11 @@ MIT — Feel free to use, modify, and contribute.
 
 👨‍💻 Author
 Developed by Yousuf Jusani
-Follow on GitHub | github.io/iyousufjusani
-
-yaml
-Copy
-Edit
+Follow on GitHub | github.com/iyousufjusani/
 
 ---
 
 Let me know if you'd like the `block.json` file and `package.json` as well — or want to convert this README into a GitHub project or ZIP plugin structure.
 
 
+```
