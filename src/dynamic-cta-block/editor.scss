@@ -1,0 +1,5 @@
+.wp-block-thejdev-dynamic-cta-form {
+	.cta-form-wrapper {
+		display: none; // prevent render in backend edit view
+	}
+}

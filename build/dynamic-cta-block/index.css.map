@@ -1,0 +1,1 @@
+{"version":3,"file":"dynamic-cta-block/index.css","mappings":";;;AACC;EACC;AAAF,C","sources":["webpack://dynamic-cta-block/./src/dynamic-cta-block/editor.scss"],"sourcesContent":[".wp-block-thejdev-dynamic-cta-form {\n\t.cta-form-wrapper {\n\t\tdisplay: none; // prevent render in backend edit view\n\t}\n}\n"],"names":[],"sourceRoot":""}

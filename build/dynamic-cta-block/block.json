@@ -1,0 +1,53 @@
+{
+  "apiVersion": 2,
+  "name": "custom/dynamic-cta-form",
+  "title": "Dynamic CTA Form",
+  "category": "widgets",
+  "icon": "feedback",
+  "description": "A customizable CTA form with dynamic input fields.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Join Our Newsletter"
+    },
+    "description": {
+      "type": "string",
+      "default": "Subscribe to stay updated!"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Subscribe Now"
+    },
+    "fields": {
+      "type": "array",
+      "default": [
+        {
+          "label": "Name",
+          "type": "text"
+        },
+        {
+          "label": "Email",
+          "type": "email"
+        }
+      ]
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 32
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": "600"
+    },
+    "titleFontFamily": {
+      "type": "string",
+      "default": "inherit"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css"
+}
